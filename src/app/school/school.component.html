@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Moonlight School</h2>
+            
+                <label>Select Class</label>
+                <form>
+                    <select name="selectClass" (change)="onChange(selectClass.value)" class="form-control" ngModel #selectClass="ngModel" value="">
+                    <option value="">Select Class</option>
+                    <option value="10">10th Class</option>
+                    <option value="9">9th Class</option>
+                    <option value="8">8th Class</option>
+                    </select>
+                </form> 
+            
+        </div>
+        <div class="col-md-8">
+            <!-- <!-- <app-students [students]="students"></app-students> --> -->
+        </div>
+
+   
+    </div>
+    
+  </div>
